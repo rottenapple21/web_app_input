@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Web App Kurasi
+{% endblock %}
+
+{% block content %}
+    {% for blog in kurasi %}
+        <a href="{% url 'blogs:single' id=blog.id %}">
+            <h2> {{blog.title}} </h2>
+        </a>
+        <p> {{blog.desc}} </p>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,10 @@
+body{
+    font-family: sans-serif;
+    background: rgb(221, 221, 221);
+    width: 90%;
+    margin: auto;
+}
+
+.is-error{
+  color: red;
+}
