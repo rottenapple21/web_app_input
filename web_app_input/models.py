@@ -3,6 +3,7 @@ from django import forms
 
 PilihKelas = (
     ('', 'Pilih Kelas...'),
+    ('0', 'Lain-lain'),
     ('1', 'Satu'),
     ('2', 'Dua'),
     ('3', 'Tiga'),
